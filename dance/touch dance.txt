@@ -1,7 +1,7 @@
-touch dance.txt
 git init
-ait add .
-git commit -m "frast commit"
-git branch -m main
+echo hello > dance.txt
 git remote add origin https://github.com/Shionsugiki/step2_test.git
+git add .
+git commit -m "first commit"
+git branch -m main
 git push -u origin main
